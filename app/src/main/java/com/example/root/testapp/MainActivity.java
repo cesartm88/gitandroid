@@ -23,10 +23,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
         btn2.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 txt.setText("Adios");
             }
         });
+
+
     }
 }
